@@ -1,0 +1,15 @@
+<h5>지찬위키에 오신것을 환영합니다!</h1>
+<form method="POST" action="/logout">
+    <button type="submit">로그아웃</button>
+</form>
+<form method="POST" action="/removecookies">
+    <button type="submit">쿠키삭제</button>
+</form>
+<form method="POST" action="/checkcookie">
+    <button type="submit">쿠키확인</button>
+</form>
+<h3>{{ logininfo }}</h3>
+
+<h4>로그인 확인: {{ a }}</h4>
+<h4>ID: {{ b }}</h4>
+<h4>유저네임: {{ c }}</h4>
